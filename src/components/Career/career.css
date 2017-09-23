@@ -1,0 +1,16 @@
+
+.root{
+  background-image: url("../../assets/careers/Geologia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  height:100%;
+  width: 100%;
+  display: flex;
+  min-height: 650px;
+}
+@media (max-width: 750px) {
+  .root{
+    min-height: 450px;
+  }
+}
