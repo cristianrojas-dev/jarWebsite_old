@@ -23,7 +23,7 @@ const AppRoutes = () =>
       <Route path="/missionVision" component={MissionVision} />
       <Route path="/careers" component={Careers} />
       <Route path="/news" component={News} />
-      <Route path="/news/add" component={NewsAdd} />
+      <Route path="/newsadd" component={NewsAdd} />
       <Route path="/homecms" component={HomeCms} />
     </Switch>
   </App>
