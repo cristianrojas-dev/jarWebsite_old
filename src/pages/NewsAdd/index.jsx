@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import firebase from 'firebase';
 import ReactDOM from 'react-dom';
+import uuid from 'uuid'
 import ReactQuill from 'react-quill'
 
 import FileUpload from '../../components/FileUpload'
@@ -52,6 +53,7 @@ class NewsAdd extends Component {
             console.log(error.message)
         }, () => {
             let news = {
+                id: uuid.v4(),
                 title: this.titleInput.value,
                 subtitle: this.subtitleInput.value,
                 text: this.state.text,

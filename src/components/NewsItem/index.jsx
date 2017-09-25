@@ -18,7 +18,6 @@ class NewsItem extends Component {
               <Link to="#">
                 <h4 className={`${styles.title} ${"card-title"}`}>{this.props.title}</h4>
               </Link>
-              
               <h6 className="card-title">{this.props.subtitle}</h6>              
               <p dangerouslySetInnerHTML={{__html: this.props.text}} />
             </div>
