@@ -10,7 +10,6 @@ class NewsItem extends Component {
 
   render() {
     return (
-      <div>
         <div className="col-md-4">
           <figure>
             <img className={styles.root} src={require(`../../assets/imagesNews/news-1.jpg`)} alt="" />
@@ -25,7 +24,6 @@ class NewsItem extends Component {
             </p>
           </div>
         </div>
-      </div>
     )
   }
 }
