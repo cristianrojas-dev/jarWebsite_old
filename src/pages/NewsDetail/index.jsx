@@ -9,6 +9,7 @@ class NewsDetail extends Component {
     render(){
         return(
             <div className="container">
+                aaaaaaaaaaaaa
                 
             </div>
         )

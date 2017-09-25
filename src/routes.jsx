@@ -13,6 +13,7 @@ import History from './pages/History'
 import MissionVision from './pages/MissionVision'
 import News from './pages/News'
 import NewsAdd from './pages/NewsAdd'
+import NewsDetail from './pages/NewsDetail'
 import HomeCms from './pages/HomeCms'
 
 const AppRoutes = () =>
@@ -24,6 +25,7 @@ const AppRoutes = () =>
       <Route path="/careers" component={Careers} />
       <Route path="/news" component={News} />
       <Route path="/newsadd" component={NewsAdd} />
+      <Route path="/news/detail/:id" component={NewsDetail} />
       <Route path="/homecms" component={HomeCms} />
     </Switch>
   </App>
